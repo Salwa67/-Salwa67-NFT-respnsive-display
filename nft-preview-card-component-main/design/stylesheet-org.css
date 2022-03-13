@@ -1,0 +1,158 @@
+/* --Soft-blue: hsl(215, 51%, 70%); /* ### Primary  colors
+  --Cyan: hsl(178, 100%, 50%);
+  --container-blue: hsl(217, 54%, 11%); /* ### Neutral (main BG) 
+  --card-blue: hsl(216, 50%, 16%);  (card BG)
+  --line-blue: hsl(215, 32%, 27%); (line)
+  --White: hsl(0, 0%, 100%);
+  --overlay-blue: rgba(0, 255, 247, 0.075); */
+
+html {
+  font-family: "Outfit", sans-serif;
+  font-size: 10px;
+}
+
+/*Designs 4 Mobile 375px - Desktop: 1440px*/
+
+.container {
+  background-color: #0d192b;
+  height: 66.7rem;
+  width: 37.5rem;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-bg {
+  background-color: #14253d;
+  color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  margin-left: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 0rem;
+  -o-border-radius: 10p 10x;
+  -moz-border-radius: 10p 10x;
+  -ms-border-radius: 10p 10x;
+  -webkit-border-radius: 10p 10x;
+  border-radius: 10p 10x;
+  width: 34rem;
+  height: 63rem;
+  position: fixed;
+  bottom: 0;
+}
+h1 {
+  font-size: 2rem;
+  margin-left: 2.5rem;
+  padding-top: 0.5rem;
+}
+.img-equi-main {
+  margin-left: 3rem;
+  margin-top: 3rem;
+  position: relative;
+  width: 80%;
+  -moz-border-radius: 10px 10px;
+  -ms-border-radius: 10px 10px;
+  -o-border-radius: 10px 10px;
+  -webkit-border-radius: 10px 10px;
+  border-radius: 10px 10px;
+}
+p {
+  color: #8bacda;
+  font-size: 1.6rem;
+  font-weight: 300;
+  margin-left: 3rem;
+}
+
+hr {
+  border-top: 0.002rem solid #2f415b;
+  margin: 3rem;
+  width: 80%;
+}
+/*  ETH section  start  */
+.eth-flex {
+  display: flex;
+}
+
+.eth-flex p {
+  color: #00fff7;
+  font-size: 1.2rem;
+  margin: 0;
+  padding: 0;
+}
+.eth-img {
+  margin-right: 1rem;
+  margin-left: 2.5rem;
+  size: 50%;
+}
+.clock-icon {
+  margin-left: 10rem;
+  padding-right: 0.5rem;
+  width: 7%;
+}
+
+#clock-p {
+  color: #8bacda;
+}
+
+.avatar {
+  display: flex;
+}
+.avatar img {
+  border: #ffffff 0.1rem solid;
+  width: 20%;
+  margin-left: 2rem;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+.avatar p span {
+  color: #ffffff;
+}
+
+/*  ETH line  end  */
+/* Active state */
+.img-equi-overlay {
+  height: 27rem;
+  margin-bottom: 1.5rem;
+  margin-left: 2.5rem;
+  margin-top: 3rem;
+  position: absolute;
+  width: 28rem;
+  -moz-border-radius: 10px 10px;
+  -ms-border-radius: 10px 10px;
+  -o-border-radius: 10px 10px;
+  -webkit-border-radius: 10px 10px;
+  border-radius: 10px 10px;
+}
+/* on hover state */
+
+.img-equi-overlay:hover {
+  background-color: #00fff713;
+  background-image: url(../nft-preview-card-component-main/images/icon-view.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -moz-border-radius: 10px 10px;
+  -ms-border-radius: 10px 10px;
+  -o-border-radius: 10px 10px;
+  -webkit-border-radius: 10px 10px;
+  border-radius: 10px 10px;
+}
+h1:hover,
+.avatar span:hover {
+  color: #00ffff;
+}
+
+/* Desk top @media screen and (max-width: 768px)*/
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 1400px;
+    height: 1280px;
+    /* display: grid;
+    align-items: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

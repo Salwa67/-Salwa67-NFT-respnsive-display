@@ -1,0 +1,145 @@
+body {
+  font-family: "Outfit", sans-serif;
+  font-size: 10px;
+}
+
+/*Designs 4 Mobile 375px - Desktop: 1440px*/
+
+.container {
+  background: #0d192b;
+  background-image: none;
+  height: 66.7em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card-bg {
+  background: #14253d;
+  background-image: none;
+  color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  -moz-border-radius: 10px 10px;
+  -ms-border-radius: 10px 10px;
+  -o-border-radius: 10px 10px;
+  -webkit-border-radius: 10px 10px;
+  border-radius: 10px 10px;
+  width: 34em;
+  height: 63em;
+}
+h1 {
+  font-size: 2em;
+  margin-left: 2em;
+  padding-top: 0.5em;
+}
+.img-equi-main {
+  margin-left: 3em;
+  margin-top: 3em;
+  position: relative;
+  width: 80%;
+  -moz-border-radius: 10px 10px;
+  -ms-border-radius: 10px 10px;
+  -o-border-radius: 10px 10px;
+  -webkit-border-radius: 10px 10px;
+  border-radius: 10px 10px;
+}
+p {
+  color: #8bacda;
+  font-size: 1.6em;
+  font-weight: 300;
+  margin-left: 3em;
+}
+
+hr {
+  border-top: 0.002em solid #2f415b;
+  margin: 3em;
+}
+/*  ETH section  start  */
+.eth-flex {
+  display: flex;
+}
+
+.eth-flex p {
+  color: #00fff7;
+  font-size: 1.2em;
+  margin: 0;
+  padding-top: 1em;
+}
+.eth-img {
+  margin-right: 1em;
+  margin-left: 3em;
+  width: 5%;
+}
+
+.clock-icon {
+  margin-left: 10em;
+  margin-right: 0.5em;
+  width: 7%;
+  /* padding-bottom: 1em; */
+}
+
+#clock-p {
+  color: #8bacda;
+  padding-bottom: 1em;
+}
+
+.avatar {
+  display: flex;
+}
+.avatar img {
+  border: #ffffff 0.1em solid;
+  width: 20%;
+  margin-left: 2em;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+.avatar p span {
+  color: #ffffff;
+}
+
+/*  ETH line  end  */
+/* Active state */
+.img-equi-overlay {
+  height: 27em;
+  width: 27em;
+  margin-bottom: 1.5em;
+  margin-left: 3em;
+  margin-top: 3em;
+  position: absolute;
+  -moz-border-radius: 10px 10px;
+  -ms-border-radius: 10px 10px;
+  -o-border-radius: 10px 10px;
+  -webkit-border-radius: 10px 10px;
+  border-radius: 10px 10px;
+}
+/* on hover state */
+
+.img-equi-overlay:hover {
+  background: #00fff713;
+  background-image: url(./images/icon-view.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  -moz-border-radius: 10px 10px;
+  -ms-border-radius: 10px 10px;
+  -o-border-radius: 10px 10px;
+  -webkit-border-radius: 10px 10px;
+  border-radius: 10px 10px;
+}
+h1:hover,
+.avatar span:hover {
+  color: #00ffff;
+}
+
+/* Desk top @media screen and (max-width: 768px)*/
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 1400px;
+    height: 1280px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
