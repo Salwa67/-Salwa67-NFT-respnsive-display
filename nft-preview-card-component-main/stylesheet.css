@@ -52,7 +52,8 @@ p {
 
 hr {
   border-top: 0.002em solid #2f415b;
-  margin: 3em;
+  margin: 2em;
+  width: 80%;
 }
 /*  ETH section  start  */
 .eth-flex {
@@ -62,24 +63,22 @@ hr {
 .eth-flex p {
   color: #00fff7;
   font-size: 1.2em;
-  margin: 0;
-  padding-top: 1em;
+  margin-left: 3.5em;
+}
+.eth-flex p {
+  height: 2em;
 }
 .eth-img {
   margin-right: 1em;
-  margin-left: 3em;
-  width: 5%;
 }
 
 .clock-icon {
-  margin-left: 10em;
+  margin-left: 4em;
   margin-right: 0.5em;
-  width: 7%;
-  /* padding-bottom: 1em; */
 }
 
-#clock-p {
-  color: #8bacda;
+#clock-p sup {
+  color: #afbcce;
   padding-bottom: 1em;
 }
 
@@ -96,8 +95,12 @@ hr {
   -webkit-border-radius: 50px;
   border-radius: 50px;
 }
+.avatar p {
+  color: #59687e;
+  margin-left: 1em;
+}
 .avatar p span {
-  color: #ffffff;
+  color: #f8f8f8;
 }
 
 /*  ETH line  end  */
@@ -114,6 +117,7 @@ hr {
   -o-border-radius: 10px 10px;
   -webkit-border-radius: 10px 10px;
   border-radius: 10px 10px;
+  /* border: 5px red solid; */
 }
 /* on hover state */
 
